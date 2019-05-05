@@ -1,11 +1,21 @@
+.navbar{
+  margin-bottom: 0px;
+  background-color: #3054C6!important;
+  border-radius: none!important;
+}
+
+.nav{
+
+}
 
 header {
   position: relative;
-  height: 75vh;
+  height: 90vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
   background: url(../main.jpg) fixed;
+  background-size:auto;
   z-index: 1;
 }
 
@@ -35,7 +45,6 @@ header .overlay {
 }
 
 .main-text{
-  padding-top: 100px;
   color: #fff;
 }
 
@@ -66,6 +75,25 @@ a:hover{
 
 
 }
+
+.left{
+  background-color:#4A6EE0;
+  height: 200px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+.middle{
+  background-color:#365DDD;
+  height: 200px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+.right{
+  background-color:#3054C6;
+  height: 200px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
 
 .lhs{
   padding-top: 40px;
@@ -119,7 +147,7 @@ a:hover{
 }
 
 .down{
-  padding-top: 100px;
+
 }
 
 .listgroup{
