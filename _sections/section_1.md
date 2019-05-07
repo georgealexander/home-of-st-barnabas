@@ -6,4 +6,6 @@ link: www.google.com
 link_text: View more
 ---
 
-Dunedin City Motors are a leading Ford and Mazda vehicle dealership with an extensive range of new and used vehicles, including demonstrations and trade-ins. Based in Dunedin, Oamaru and Alexandra our experienced sales teams are available to discuss your vehicle requirements and finance options available, ensuring you receive a vehicle that suits your needs within your budget.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper tempor magna ut laoreet. Aenean interdum velit et magna efficitur ultrices. Quisque ac leo sit amet risus finibus luctus a eget risus. Morbi a nisi egestas, lacinia nisi quis, commodo urna. Duis vehicula convallis leo ac cursus. Etiam pretium pharetra arcu eget cursus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
