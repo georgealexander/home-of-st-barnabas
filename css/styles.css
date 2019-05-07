@@ -431,6 +431,9 @@ span {
 .contact h1 {
   margin-top: 0px;
 }
+.contact p {
+  color: #ffffff !important;
+}
 
 .links {
   color: #4A6EE0;
