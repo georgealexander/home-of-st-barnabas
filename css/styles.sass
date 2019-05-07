@@ -1,0 +1,468 @@
+$primary-color: #4A6EE0
+$secondary-color: #365DDD
+$third-color: #3054C6
+$fourth-color: #22252A
+$navbar: #ffffff
+$primary-font-color: #000000
+$secondary-font-color: #FFFFFF
+
+html,body
+    width: 100%
+    height: 100%
+    margin: 0px
+    padding: 0px
+    overflow-x: hidden
+
+body
+  font-family: 'Lato', Calibri, Arial, sans-serif
+
+  /* General button style (reset) */
+.btn
+  border: none
+  font-family: inherit
+  font-size: inherit
+  color: inherit
+  background: none
+  cursor: pointer
+  padding: 18px 55px
+  display: inline-block
+  margin: 15px 30px
+  text-transform: uppercase
+  letter-spacing: 1px
+  font-weight: 700
+  outline: none
+  position: relative
+  -webkit-transition: all 0.3s
+  -moz-transition: all 0.3s
+  transition: all 0.3s
+
+
+.btn:after
+  content: ''
+  position: absolute
+  z-index: -1
+  -webkit-transition: all 0.3s
+  -moz-transition: all 0.3s
+  transition: all 0.3s
+
+/* ///////// Button 2 //// LOG IN  ////////////*/
+.btn-2
+  border: 3px solid #fff
+  color: #fff
+
+
+/* Button 2a */
+.btn-2a:hover,
+.btn-2a:active
+  color: #4292C1
+  background: #fff
+
+
+
+
+
+.nav
+  height: 90px
+  background-color: $third-color
+
+
+.navbar
+  margin-bottom: 0px
+  border-radius: none!important
+  height: 100px
+
+
+.navbar-brand
+  height: 40px
+  background-color: $navbar
+
+.border-padding
+  padding-left: 120px
+  padding-right: 80px
+  background-color: #17448E
+
+
+.top-nav
+  height: 130px
+
+
+.bottom-nav
+  background-color: #000
+  height: 60px
+  border-top-right-radius: 5px
+  border-top-left-radius: 5px
+
+
+.logo
+  margin-top: 30px
+  height: 70px
+  width: 320px
+
+
+.fa-facebook-square
+  font-size: 30px
+  color: #fff
+
+
+header
+  position: relative
+  height: 90vh
+  min-height: 25rem
+  width: 100%
+  overflow: hidden
+  background: url(../main.jpg)
+  background-size: cover
+  background-position: center
+  z-index: 1
+
+
+
+header .container
+  position: relative
+  z-index: 2
+
+
+header .overlay
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  background-color: #666666
+  opacity: 0.3
+  z-index: 1
+
+
+
+.main-image
+ background-size: cover
+ width: 100%
+ height: auto
+
+
+
+.main-text
+  color: #fff
+
+
+.main-site
+  position: fixed
+  right: 0
+  top: 0
+  padding: 10px
+  color: white
+  padding-bottom: 20px
+
+
+.main-site:hover
+  text-decoration: none
+  transition: 0.5s
+  color: #000000
+
+
+a
+  color: #3EB449
+
+
+
+a:hover
+  text-decoration: none
+  color: black
+  transition: 0.5s
+
+.partners
+  height: 350px
+  background: #fff
+
+.service-box
+  color: #ffffff
+  padding: 0px
+  font-family: 'FordAntennaMed', 'Overpass', sans-serif
+
+h3
+  text-transform: uppercase
+
+
+.service
+  text-align: left
+  position: relative
+  padding: 25px
+
+
+.one
+  display: inline-block
+  font-size: 60px
+  padding-right: 30px
+  padding-left: 20px
+    i:
+      height: 1em
+      width: 1em
+      vertical-align: 1em
+
+
+
+.two
+  display: inline-block
+  padding-top: 0px
+  width: 200px
+    h3:
+      text-transform: uppercase
+      font-weight: bold
+
+
+
+.left
+  background-color:$primary-color
+  width: 33%
+  height: 200px
+  border-bottom: 2px solid rgba(0,0,0,0.3)
+  display: inline-block
+
+
+.middle
+  background-color:$secondary-color
+  height: 200px
+  border-bottom: 2px solid rgba(0,0,0,0.3)
+  width: 33%
+  display: inline-block
+
+
+.right
+  background-color:$third-color
+  height: 200px
+  border-bottom: 2px solid rgba(0,0,0,0.3)
+  width: 33%
+  display: inline-block
+
+
+
+
+.section-divider
+  margin-bottom: 100px
+
+
+.section-divider h1
+  margin-bottom: 25px
+
+
+
+.section-divider p
+  font-size: 15px
+
+
+.section-divider img
+  margin-top: 40px
+  margin-bottom: 40px
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+.lhs
+  padding-top: 40px
+  padding-right: 60px
+  padding-bottom: 30px
+  p
+    font-size: 16px
+    line-height: 28px
+    padding-top: 5px
+  a
+    font-size: 16px
+    color: $primary-color
+    font-weight: bold
+  a:hover
+    text-decoration: none
+    color: #000000
+    transition: 0.5s
+
+
+.rhs
+  padding-top: 50px
+  padding-bottom: 50px
+  h4
+    color: $third-color
+    font-size: 25px
+    padding-bottom: 10px
+  p
+    font-size: 16px
+    line-height: 28px
+    padding-bottom: 30px
+
+
+
+
+
+.list-group-item.active
+  background-color: #146A37
+  border: none
+
+
+.list-group-item.active:hover
+  background-color: #146A37
+  border: none
+
+
+.list-group
+  width: 300px
+
+
+.down
+
+
+
+.listgroup
+  position: fixed
+
+
+.image-box
+  height: 400px
+  background: $primary-color
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../main.jpg) fixed
+  background-position: center
+  display: table-cell
+  vertical-align: middle
+  padding: 100px
+  text-align: center
+  .image-box-content
+    display: inline-block
+    text-align: center
+    margin-right: auto
+    margin-left: auto
+    padding-left: 15px
+    padding-right: 15px
+    color: #fff
+    h2
+      font-weight: 700
+  .view-more
+    padding-top: 20px
+
+/*/////////////////////////////// Footer /////////////////////////// */
+
+.footer
+  border-top: 20px solid $primary-color
+  background-color: $fourth-color
+  padding-top: 20px
+  margin: 0 auto
+  text-align: left
+  h3
+    color: $primary-color
+  p
+    color: $secondary-font-color
+  .footer-top
+    padding-bottom: 40px
+  .lower-footer
+    height: auto
+    background-color: #272A30
+    padding-top: 20px
+    padding-bottom: 20px
+  .social-icons
+    padding-bottom: 10px
+  .social-icons a
+    font-size: 20px
+    color: $secondary-font-color
+    padding-right: 5px
+  .panel-2
+    padding-top: 0px
+    padding-left: 15px
+  .levitate a
+    font-weight: 700
+    color: #A2A2A2
+    font-family: 'Questrial', sans-serif
+  .levitate a:hover
+    color: #ffffff
+  .logo
+
+
+
+
+/*///////////////// /////////////////*/
+
+.separator-type, .title-type, .intro-type, .content-type .intro-type p
+  position: relative
+
+.intro-type .container
+  padding: 107px 0px 102px 0px !important
+
+.company-heading h1
+  margin-bottom: 60px
+  padding-bottom: 50px
+  line-height: 80px
+  color: #fff
+  font-weight: 700 !important
+  text-align: center
+
+.jumbo
+  margin-top: 50px
+
+.seo-header, .product-header,
+.intro-type .container h1.white,
+.company-heading h1
+  font-weight: 100 !important
+  text-transform: capitalize
+  font-size: 55px
+  margin-bottom: 20px
+
+.parallax
+  background-attachment: inherit !important
+
+.parallax
+  background-attachment: inherit !important
+
+.parallax
+  background-attachment: inherit !important
+  background-repeat: repeat
+  background-size: cover
+  position: absolute
+  top: 0px
+  bottom: 0px
+  width: 100%
+  z-index: -10
+
+.ct-btn-scroll
+  width: 49px
+  height: 49px
+  position: absolute
+  bottom: 30px
+  left: 0
+  right: 0
+  margin: auto
+  padding-top: 500px
+  z-index: 9
+  border-radius: 50%
+  -webkit-transition: background-color 0.25s ease-in-out
+  transition: background-color 0.25s ease-in-out
+
+img,
+figure
+  max-width: 100%
+
+
+@media (max-width: 767px)
+  .section-divider
+    margin-bottom: 10px
+
+@media (max-width: 1075px)
+  .left
+    width: 100%
+    display: inline-block
+    padding: 10px
+    padding-top: 15px
+    .two
+      width: 300px
+
+  .middle
+    width: 100%
+    display: inline-block
+    padding: 10px
+    padding-top: 15px
+    .two
+      width: 300px
+
+
+  .right
+    width: 100%
+    display: inline-block
+    padding: 10px
+    padding-top: 15px
+    .two
+      width: 300px
+
+    .service-box
+      padding: 20px

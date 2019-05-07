@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Theta | Editing Your Website</title>
+    <title>Goods & Services</title>
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Favicon Here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -19,35 +21,18 @@
 
   </head>
   <body>
-    <div class="col-md-12">
 
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-
-        </ul>
+<div class="nav">
+  <div class="container">
+    <div class="row">
+      <div class="navbar-brand col-md-4">
+        <img src="" alt="">
       </div>
-    </nav>
-
-
-    <header id="top">
-
+    </div>
+  </div>
+</div>
+  <header id="top">
   <div class="overlay">
-
   </div>
   <div class="container h-100">
 
@@ -64,51 +49,177 @@
 
 <section>
   <div class="row">
-    <div class="col-md-4 left">
-      <p>Col 1</p>
-    </div>
-    <div class="col-md-4 middle">
-      <p>Col 2</p>
-    </div>
-    <div class="col-md-4 right">
-      <p>Col 3</p>
-    </div>
-  </div>
+      <div class="left service-box">
+          <div class="service">
+            <div class="one">
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+            </div>
+            <div class="two">
+              <h3>Schedule a service</h3>
+              <p>Schedule car maintenance</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle service-box">
+          <div class="service">
+            <div class="one">
+              <span>
+                <i class="fas fa-beer"></i>
+              </span>
+            </div>
+            <div class="two">
+              <h3>Get approved in seconds</h3>
+              <p>Be quick to avoid missing out!</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="right service-box">
+          <div class="service">
+            <div class="one">
+              <span>
+                <i class="fas fa-location-arrow"></i>
+              </span>
+            </div>
+            <div class="two">
+              <h3>Talk to us</h3>
+              <p>Contact us about updating your vehicle today</p>
+            </div>
+          </div>
+      </div>
+
+      </div>
 </section>
 
 <section>
   <div class="container">
     <div class="row flexbox" id="documentation">
-      <div class="col-md-8 offset-md-1 lhs">
+      <div class="col-md-4 lhs">
 
         {% for section in site.sections %}
         <div class="section-divider" id="{{section.section_number}}">
           <h1>{{ section.section_title }}</h1>
+          <h4>{{ section.subtitle }}</h4>
           <p>{{ section.content }}</p>
-          <hr>
+          {% if section.link %}
+          <a href="{{section.link}}">{{ section.link_text }}</a>
+          {% endif %}
         </div>
         {% endfor %}
 
 
       </div>
-      <div class="col-md-3 offset-md-1 rhs d-sm-none d-xs-none">
-        <div class="list-group d-sm-none">
-          <a class="list-group-item list-group-item-action active"><i class="fas fa-info-circle"></i> Menu</a>
-          {% for section in site.sections %}
-          <a href="#{{section.section_number}}" class="list-group-item list-group-item-action"> {{ section.section_title }}</a>
-          {% endfor %}
+      <div class="col-md-8 rhs">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>A wide range of vehicles</h4>
+            <p>As well as the full range of Ford and Mazda vehicles, we also stock an extensive range of trade-ins available from a wide variety of Japanese manufacturers including Subaru, Mitsubishi and Toyota, as well as a more prestige range including Mercedes Benz, Jeep, VW and more!</p>
           </div>
+          <div class="col-md-6">
+            <h4>Finance options</h4>
+            <p>There are a range of finance options available with fast approval and payment schedules to suit your budget. Let us help you navigate the application process to ensure you secure the vehicle of your choice at competitive finance rates with affordable payments.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Trusted by thousands</h4>
+            <p>With a long history of Distinguished Achievement Awards for excellence in quality and customer satisfaction, we have the confidence that we will provide a smooth and professional experience when purchasing your vehicle with us.</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Lifelong servicing</h4>
+            <p>We are the authorised agents for Ford in Dunedin and Oamaru, and for Mazda in Dunedin and Otago. We use the latest in vehicle servicing and repair technology to ensure we get your car serviced quickly, with great ease and with the best possible care.</p>
+          </div>
+        </div>
       </div>
+
     </div>
   </div>
 </section>
 
+<section>
+    <div class="row">
+      <div class="col-md-12 image-box">
+
+        <div class="image-box-content">
+          <h2>This is an Image Box</h2>
+          <p>Here is a bit of content to fill up the space</p>
+          <div class="view-more">
+            <button class="btn btn-2 btn-2a">Log In</button>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="row">
+      <div class="col-md-12 partners">
+
+
+
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- ///////////////////////////////////// FOOTER /////////////////////////// -->
+
 <footer class="footer">
-     <div class="container">
-       <p class="footer-text">© 2019 THETA. ALL RIGHTS RESERVED.</p>
-       <p><a href="#top">Back to Top <i class="fas fa-chevron-up"></i></a></p>
+
+     <div class="container footer-top">
+       <div class="col-md-6">
+         <h3>Left Column</h3>
+         <p>431 Andersons Bay Road,
+Dunedin, New Zealand
+Ph: 03 466 4060</p>
+       </div>
+       <div class="col-md-3">
+         <h3>Left Column</h3>
+         <p>431 Andersons Bay Road,
+Dunedin, New Zealand
+Ph: 03 466 4060</p>
+       </div>
+       <div class="col-md-3">
+         <h3>Left Column</h3>
+         <p>431 Andersons Bay Road,
+Dunedin, New Zealand
+Ph: 03 466 4060</p>
+       </div>
+
+     </div>
+     <div class="lower-footer">
+       <div class="container">
+         <div class="row panel-1">
+           <div class="col-md-12">
+             <div class="col-md-12 social-icons">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-twitter-square"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+             </div>
+           </div>
+         </div>
+         <div class="row panel-2">
+            <div class="col-md-9">
+              <p>© 2019 Your Website. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="col-md-3 col-sm-12 levitate">
+               <a href="#"><i class="fab fa-skyatlas"></i> Website powered by levitate</a>
+            </div>
+          </div> <!-- End of Row -->
+
+        </div> <!-- End of Container -->
+       </div>
+
      </div>
    </footer>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -1,14 +1,9 @@
 ---
 section_number: 1
-section_title: Logging In To Your Account
+section_title: Here is your title
+subtitle: The subtitle belongs here
+link: www.google.com
+link_text: View more
 ---
 
-1. Visit [cloudcannon.com](https://cloudcannon.com/) to sign in to your account.
-
-2. Click the 'Log In' button in the top right hand corner of the page.
-
-    ![sign in](img/login.png)
-
-3. Enter your details into the form and click the 'Log In' button.
-
-    ![login](img/login-page.png)
+Dunedin City Motors are a leading Ford and Mazda vehicle dealership with an extensive range of new and used vehicles, including demonstrations and trade-ins. Based in Dunedin, Oamaru and Alexandra our experienced sales teams are available to discuss your vehicle requirements and finance options available, ensuring you receive a vehicle that suits your needs within your budget.
