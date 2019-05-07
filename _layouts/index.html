@@ -26,7 +26,7 @@
   <div class="container">
     <div class="row">
       <div class="navbar-brand col-md-4">
-        <img src="" alt="">
+
       </div>
     </div>
   </div>
@@ -39,8 +39,6 @@
     <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white main-text">
         <img class="background-img" src="logo1.png" alt="theta">
-        <h1 class="display-3"></h1>
-        <p class="lead mb-0">Documentation to help you edit, update and create content for your site.</p>
       </div>
 
     </div>
@@ -101,7 +99,7 @@
 
         {% for section in site.sections %}
         <div class="section-divider" id="{{section.section_number}}">
-          <h1>{{ section.section_title }}</h1>
+          <h2>{{ section.section_title }}</h2>
           <h4>{{ section.subtitle }}</h4>
           <p>{{ section.content }}</p>
           {% if section.link %}
@@ -142,18 +140,21 @@
 <section>
     <div class="row">
       <div class="col-md-12 image-box">
+        <div class="col-md-3">
 
-        <div class="image-box-content">
+        </div>
+        <div class="col-md-6 image-box-content">
           <h2>This is an Image Box</h2>
           <p>Here is a bit of content to fill up the space</p>
           <div class="view-more">
             <button class="btn btn-2 btn-2a">Log In</button>
           </div>
         </div>
+        <div class="col-md-3">
 
         </div>
+        </div>
       </div>
-    </div>
 </section>
 
 
@@ -165,7 +166,7 @@
 
         </div>
       </div>
-    </div>
+
 </section>
 
 <!-- ///////////////////////////////////// FOOTER /////////////////////////// -->
@@ -216,7 +217,6 @@ Ph: 03 466 4060</p>
         </div> <!-- End of Container -->
        </div>
 
-     </div>
    </footer>
 
 
