@@ -331,6 +331,9 @@ h3 {
 .footer p {
   color: #FFFFFF;
 }
+.footer .contact i {
+  margin-right: 10px;
+}
 .footer .footer-top {
   padding-bottom: 40px;
 }
@@ -360,6 +363,20 @@ h3 {
 .footer .levitate a:hover {
   color: #ffffff;
 }
+.links {
+  color: #4A6EE0;
+}
+.links a {
+  color: #FFFFFF;
+}
+.links a:hover {
+  color: #4A6EE0;
+}
+
+.footer-item {
+  padding-bottom: 20px;
+}
+
 /*///////////////// /////////////////*/
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
   position: relative;
@@ -433,6 +450,10 @@ figure {
 @media (max-width: 767px) {
   .section-divider {
     margin-bottom: 10px;
+  }
+
+  .footer-item {
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 1075px) {
