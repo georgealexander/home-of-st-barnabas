@@ -393,6 +393,7 @@ span {
   margin-right: 10px;
 }
 .footer .footer-top {
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 .footer .footer-top h3 {
@@ -427,6 +428,10 @@ span {
 .footer .levitate a:hover {
   color: #ffffff;
 }
+.contact h1 {
+  margin-top: 0px;
+}
+
 .links {
   color: #4A6EE0;
 }
