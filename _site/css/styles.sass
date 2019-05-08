@@ -307,6 +307,9 @@ h3
 
 /*Owl Carousel*/
 
+.owl-carousel
+  overflow: hidden
+
 .owl-nav button
   position: absolute
   top: 50%
@@ -372,11 +375,10 @@ h3
 .image-box
   height: 400px
   background: $primary-color
-  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../main.jpg) fixed
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/balls.jpg) fixed!important
   background-position: center
   display: table-cell
   vertical-align: middle
-  padding: 0px
   text-align: center
   .image-box-content
     padding: 100px
@@ -387,7 +389,9 @@ h3
     padding-right: 15px
     color: #fff
     h2
-      font-weight: 700
+      font-weight: bold
+    p
+      font-size: 16px
   .view-more
     padding-top: 20px
 
@@ -424,7 +428,7 @@ h3
     color: #A2A2A2
     padding-right: 5px
   .social-icons a:hover
-    color: $secondary-font-color
+    color: $navbar
   .panel-2
     padding-top: 0px
     padding-left: 15px
