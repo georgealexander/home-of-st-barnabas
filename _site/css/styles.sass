@@ -1,8 +1,8 @@
-$primary-color: #4A6EE0
-$secondary-color: #365DDD
+$primary-color: #c7f968
+$secondary-color: #b3e05e
 $third-color: #3054C6
 $fourth-color: #22252A
-$navbar: #ffffff
+$navbar: #A0C756
 $primary-font-color: #000000
 $secondary-font-color: #FFFFFF
 
@@ -11,8 +11,25 @@ body
   font-family: 'Lato', Calibri, Arial, sans-serif
   overflow-x: hidden
 
+
+h2
+  font-weight: 600
+
+.top
+
+
+.logo
+  margin-top: 50px
+  margin-bottom: 80px
+
+.logo img
+  height: auto
+  width: 230px
+
+
 .jumbotron
   margin-bottom: 0px
+  background-color: #fff
 
 .navbar
   border-radius: 0px
@@ -29,9 +46,9 @@ body
   margin: auto
   .navbar
     margin-bottom: 0px
-    background-color: #3054C6!important
+    background-color: #22252A!important
     font-size: 18px
-    text-transform: uppercase
+    text-transform: capitalize
     a
       color: #ffffff!important
 
@@ -217,7 +234,7 @@ h3
 
 
 .middle
-  background-color:$secondary-color
+  background-color:#3b4149
   height: 200px
   border-bottom: 2px solid rgba(0,0,0,0.3)
   width: 33%
@@ -226,7 +243,7 @@ h3
 
 
 .right
-  background-color:$third-color
+  background-color:#22252A
   height: 200px
   border-bottom: 2px solid rgba(0,0,0,0.3)
   width: 33%
@@ -276,7 +293,7 @@ h3
   padding-top: 50px
   padding-bottom: 50px
   h4
-    color: $third-color
+    color: $navbar
     font-size: 25px
     padding-bottom: 10px
   p
@@ -374,13 +391,15 @@ h3
 /*/////////////////////////////// Footer /////////////////////////// */
 
 .footer
-  border-top: 20px solid $primary-color
+  border-top: 20px solid $navbar
   background-color: $fourth-color
   padding-top: 20px
   margin: 0 auto
   text-align: left
   h3
-    color: $primary-color
+    color: $navbar
+  h4
+    color: $navbar
   p
     color: $secondary-font-color
   .contact i
@@ -425,7 +444,7 @@ h3
   a
     color: #FFFFFF
   a:hover
-    color: $primary-color
+    color: $navbar
 
 .footer-item
   padding-bottom: 20px
@@ -536,7 +555,7 @@ figure
 
 #button
   display: inline-block
-  background-color: #4A6EE0
+  background-color: $navbar
   width: 50px
   height: 50px
   text-align: center
