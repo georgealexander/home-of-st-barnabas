@@ -24,13 +24,6 @@ h2 {
   text-transform: uppercase;
 }
 
-.nav-item+.nav-item:before {
-  content: "/";
-  color: #6e6e6e;
-  padding-left: 1rem;
-  padding-right: 1rem;
- 
-}
 
 .jumbotron {
   margin-bottom: 0px;
