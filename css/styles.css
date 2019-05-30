@@ -21,13 +21,15 @@ h2 {
 .navbar-nav{
   font-size: 20px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .nav-item+.nav-item:before {
   content: "/";
   color: #6e6e6e;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ 
 }
 
 .jumbotron {
