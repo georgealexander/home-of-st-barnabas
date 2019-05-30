@@ -18,6 +18,8 @@ h2 {
   width: 230px;
 }
 
+
+
 .jumbotron {
   margin-bottom: 0px;
   background-color: #fff;
@@ -268,7 +270,7 @@ h3 {
 }
 .lhs a {
   font-size: 16px;
-  color: #c7f968;
+  color: #275CAB;
   font-weight: bold;
 }
 .lhs a:hover {
@@ -363,7 +365,7 @@ h3 {
 
 .image-box {
   height: 400px;
-  background: #c7f968;
+  background: #275CAB;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/main-house.jpg) fixed !important;
   background-position: center;
   display: table-cell;
@@ -453,13 +455,13 @@ h3 {
 }
 
 .links {
-  color: #c7f968;
+  color: #275CAB;
 }
 .links a {
   color: #FFFFFF;
 }
 .links a:hover {
-  color: #A0C756;
+  color: #275CAB;
 }
 
 .footer-item {
