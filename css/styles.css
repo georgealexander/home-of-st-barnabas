@@ -23,6 +23,12 @@ h2 {
   font-weight: bold;
 }
 
+.nav-item+.nav-item:before {
+  content: "/";
+  color: #6e6e6e;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
 .jumbotron {
   margin-bottom: 0px;
   background-color: #fff;
