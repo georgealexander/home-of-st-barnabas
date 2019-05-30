@@ -1,0 +1,44 @@
+/*
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 155 of styles.sass
+
+150:   z-index: 1
+151: 
+152: 
+153: 
+154: .main-image
+155:  background-size: cover
+156:  width: 100%
+157:  height: auto
+158: 
+159: 
+160: 
+
+Backtrace:
+styles.sass:155
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:494:in `block in tabulate'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each_with_index'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `tabulate'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 155 of styles.sass\A \A 150:   z-index: 1\A 151: \A 152: \A 153: \A 154: .main-image\A 155:  background-size: cover\A 156:  width: 100%\A 157:  height: auto\A 158: \A 159: \A 160: "; }
