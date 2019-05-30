@@ -364,7 +364,7 @@ h3 {
 .image-box {
   height: 400px;
   background: #c7f968;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/balls.jpg) fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/main-house.jpg) fixed !important;
   background-position: center;
   display: table-cell;
   vertical-align: middle;
