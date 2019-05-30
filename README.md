@@ -1,2 +1,1 @@
-# andersons-bay-tennis
-Go Sharks!
+# St Barnabas
