@@ -2,11 +2,11 @@ $("#carousel").owlCarousel({
   autoplay: true,
   lazyLoad: true,
   loop: true,
-  margin: 20,
-   /*
+  margin: 50,
+
   animateOut: 'fadeOut',
   animateIn: 'fadeIn',
-  */
+
   responsiveClass: true,
   autoHeight: true,
   autoplayTimeout: 7000,

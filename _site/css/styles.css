@@ -1,5 +1,5 @@
 body {
-  border-top: 10px solid #A4CA5E;
+  border-top: 10px solid  #275CAB;
   font-family: "Lato", Calibri, Arial, sans-serif;
   overflow-x: hidden;
 }
@@ -16,6 +16,17 @@ h2 {
 .logo img {
   height: auto;
   width: 230px;
+}
+
+.navbar-nav{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+
+.bg-light {
+    background-color: #ffffff!important;
 }
 
 .jumbotron {
@@ -110,7 +121,7 @@ h2 {
 
 header {
   position: relative;
-  height: 90vh;
+  height: 70vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -178,20 +189,17 @@ a:hover {
 
 .service-box {
   color: #ffffff;
-  padding: 0px;
   font-family: "FordAntennaMed", "Overpass", sans-serif;
   overflow: hidden;
+  text-align: left;
+  position: relative;
+  padding: 20px 40px;
 }
 
 h3 {
   text-transform: uppercase;
 }
 
-.service {
-  text-align: left;
-  position: relative;
-  padding: 25px;
-}
 
 .one {
   display: inline-block;
@@ -201,18 +209,28 @@ h3 {
   padding-left-i-height: 1em;
   padding-left-i-width: 1em;
   padding-left-i-vertical-align: 1em;
+
+}
+
+.one i {
+  margin: 0 auto;
 }
 
 .two {
   display: inline-block;
   padding-top: 0px;
-  width: 200px;
-  width-h3-text-transform: uppercase;
+  width-h3-text-transform: capitalize!important;
   width-h3-font-weight: bold;
+  width: 55%;
+  padding-top: 20px;
+}
+
+.two h3{
+  text-transform: capitalize;
 }
 
 .left {
-  background-color: #c7f968;
+  background-color:#275CAB;
   width: 33%;
   height: 200px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -268,7 +286,7 @@ h3 {
 }
 .lhs a {
   font-size: 16px;
-  color: #c7f968;
+  color: #275CAB;
   font-weight: bold;
 }
 .lhs a:hover {
@@ -282,7 +300,7 @@ h3 {
   padding-bottom: 50px;
 }
 .rhs h4 {
-  color: #A0C756;
+  color: #275CAB;
   font-size: 25px;
   padding-bottom: 10px;
 }
@@ -363,8 +381,8 @@ h3 {
 
 .image-box {
   height: 400px;
-  background: #c7f968;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/balls.jpg) fixed !important;
+  background: #275CAB;
+  background: #265DAA;
   background-position: center;
   display: table-cell;
   vertical-align: middle;
@@ -391,17 +409,17 @@ h3 {
 
 /*/////////////////////////////// Footer /////////////////////////// */
 .footer {
-  border-top: 20px solid #A0C756;
+  border-top: 20px solid #275CAB;
   background-color: #22252A;
   padding-top: 20px;
   margin: 0 auto;
   text-align: left;
 }
 .footer h3 {
-  color: #A0C756;
+  color:#275CAB;
 }
 .footer h4 {
-  color: #A0C756;
+  color: #275CAB;
 }
 .footer p {
   color: #FFFFFF;
@@ -453,13 +471,13 @@ h3 {
 }
 
 .links {
-  color: #c7f968;
+  color: #275CAB;
 }
 .links a {
   color: #FFFFFF;
 }
 .links a:hover {
-  color: #A0C756;
+  color: #275CAB;
 }
 
 .footer-item {
@@ -544,10 +562,28 @@ figure {
   .footer-item {
     padding-bottom: 20px;
   }
+
+  .one{
+    width: 40%;
+    text-align: center;
+    padding-left: 50px!important;
+
+  }
+
+  .two{
+    width: 60%;
+    padding-left: 50px!important;
+  }
 }
-@media (max-width: 1075px) {
+@media (max-width: 1115px) {
   .lower-nav {
     width: 100%;
+  }
+
+  .one{
+    width: 20%;
+    text-align: center;
+    padding-left: 50px!important;
   }
 
   .left {
@@ -585,7 +621,7 @@ figure {
 }
 #button {
   display: inline-block;
-  background-color: #A0C756;
+  background-color:#275CAB;
   width: 50px;
   height: 50px;
   text-align: center;
