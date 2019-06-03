@@ -1,5 +1,5 @@
 body {
-  border-top: 10px solid  #275CAB;
+  border-top: 10px solid  #2F54C6;
   font-family: "Lato", Calibri, Arial, sans-serif;
   overflow-x: hidden;
 }
@@ -119,15 +119,19 @@ h2 {
   color: #fff;
 }
 
+.breadcrumb{
+  background-color: #ffffff;
+}
+
 header {
   position: relative;
   height: 70vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  background: url(../main.jpg);
+  background: url(../img/main.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   z-index: 1;
 }
 
@@ -142,8 +146,8 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #666666;
-  opacity: 0.3;
+  background-color: #999999;
+  opacity: 0.1;
   z-index: 1;
 }
 
@@ -230,7 +234,7 @@ h3 {
 }
 
 .left {
-  background-color:#275CAB;
+  background-color:#4A6EDF;
   width: 33%;
   height: 200px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -239,7 +243,7 @@ h3 {
 }
 
 .middle {
-  background-color: #3b4149;
+  background-color: #355DDD;
   height: 200px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   width: 33%;
@@ -248,7 +252,7 @@ h3 {
 }
 
 .right {
-  background-color: #22252A;
+  background-color: #2F54C6;
   height: 200px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   width: 33%;
@@ -256,8 +260,10 @@ h3 {
   overflow: hidden;
 }
 
-.section-divider {
-  margin-bottom: 100px;
+
+.about-us{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section-divider h1 {
@@ -274,10 +280,19 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.section{
+  margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+.iframe{
+  line-height: 0px;
+}
+
 .lhs {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-right: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .lhs p {
   font-size: 16px;
@@ -409,7 +424,7 @@ h3 {
 
 /*/////////////////////////////// Footer /////////////////////////// */
 .footer {
-  border-top: 20px solid #275CAB;
+  border-top: 20px solid #FFC009;
   background-color: #22252A;
   padding-top: 20px;
   margin: 0 auto;
@@ -621,7 +636,7 @@ figure {
 }
 #button {
   display: inline-block;
-  background-color:#275CAB;
+  background-color:#FFC009;
   width: 50px;
   height: 50px;
   text-align: center;

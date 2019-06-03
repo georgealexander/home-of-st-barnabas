@@ -30,6 +30,16 @@
   .navbar{
     padding-top: 20px;
     padding-bottom: 20px;
+    }
+
+    .jumbotron{
+      background: url(../img/5.jpg);
+      background-position:center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      height: 300px;
+    }
   }
 </style>
 
@@ -48,7 +58,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Planning Retirement</a>
@@ -64,122 +74,45 @@
         </div>
         </nav>
 
-
-
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead"></p>
+          </div>
+        </div>
 
 
 <a id="button"><i class="fas fa-sort-up"></i></a>
-  <header id="top">
-  <div class="overlay">
-  </div>
-  <div class="container h-100">
-
-    <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100 text-white main-text">
-
-      </div>
-
-    </div>
-  </div>
-</header>
 
 <section>
-  <div class="row">
-      <div class="left service-box">
-            <div class="one">
-              <span>
-                <i class="fas fa-binoculars"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Take a tour</h3>
-              <p>We encourage you to come and take a look around.</p>
-            </div>
-      </div>
+  <div class="container about-us">
 
-      <div class="middle service-box">
-            <div class="one">
-              <span>
-                <i class="fas fa-info"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Get an Info Pack</h3>
-              <p>Contact us today to request a free information pack.</p>
-            </div>
-      </div>
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+  </ol>
+</nav>
 
-      <div class="right service-box">
-            <div class="one">
-              <span>
-                <i class="fas fa-handshake"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Say hello</h3>
-              <p>12 Ings Ave, St Clair, Dunedin 9012</p>
-            </div>
-      </div>
+    <p>The Home of St Barnabas Trust is a provider of Services for the Elderly both residential and those living in our community isolated from social contact.</p>
 
-      </div>
-</section>
+    <p>Opening its doors on the 5th May 1956 with fourteen women as residents all joining our first Matron, Miss Joan Chetwin, later becoming Mrs. Tubmans then a long term resident.  Over the last 6 decades the home has seen many changes.</p>
 
-<section>
-  <div class="container">
-    <div class="row flexbox" id="documentation">
-      <div class="col-sm-12 lhs">
-        {% for section in site.sections %}
-        <div class="section-divider" id="{{section.section_number}}">
-          <h2>{{ section.section_title }}</h2>
-          <h4>{{ section.subtitle }}</h4>
-          <p>{{ section.content }}</p>
+    <p>The Pywell wing, named after Canon Pywell was designed by Architects McAllum & Black in 1971 and built by Stewart Construction Ltd and dedicated on 10 March 1973 by Bishop Robinson of Dunedin.  This gave the home an additional 23 bedrooms.
+    </p>
 
-        </div>
-        {% endfor %}
-      </div>
-    </div>
+    <p>In 1991 with the demand for better accommodation the Teal wing, named after The Rev. John Teal was designed by Architects Mason and Wales.  This gave the home a nurse’s station/medical room, activities and hairdressing areas along with 14 upgraded bedrooms with en sites making the home 37 bed rest home.</p>
+
+    <p>Upgrading in 1997 provided an additional 4 beds to the current total of 41 beds and in 1998 the home extend its hand into the community by establishing Community Care Services, firstly by purchasing 17a Cougthrey Street for the use of Day care services, then a Meals on Wheels and  Laundry service for those living independently in the community. </p>
+
+
+    <p>2004 the chapel was refurbished and 2005 saw the redevelopment of the ground floor Original homestead.</p>
+
+    <p>Over the years the Home has been supported by the Parishes.   However, with diminishing church rolls and increasing legal requirements it was necessary to establish the Home of St Barnabas as a Charitable Trust with the ability to extend its support base.   The Charitable Trust came into effect on the 1st May 2003.</p>
+
   </div>
 </section>
 
-<section>
-    <div class="row">
-      <div class="col-md-12 image-box">
-        <div class="col-md-3">
-
-        </div>
-        <div class="col-md-6 image-box-content">
-          <h2>Get in contact today</h2>
-          <p></p>
-          <div class="view-more">
-            <button class="btn btn-2 btn-2a">Contact Us</button>
-          </div>
-        </div>
-        <div class="col-md-3">
-
-        </div>
-        </div>
-      </div>
-</section>
-
-<!--  Demos -->
-<section>
-  <div class="container partners">
-    <div id="carousel" class="owl-carousel">
-      {% for image in site.sliderimage %}
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src={{ image.img_path }} height="200" width="150" alt="">
-      </a>
-  	</div>
-    {% endfor %}
-  </div>
-  </div>
-
-</section>
-
-<section class="iframe">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2776.1851970327916!2d170.489207!3d-45.907607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82eaeb6144813fd%3A0x915f99e70fe24d7e!2sHome+Of+St+Barnabas+Trust!5e0!3m2!1sen!2sus!4v1559546832712!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</section>
 
 <!-- ///////////////////////////////////// FOOTER /////////////////////////// -->
 

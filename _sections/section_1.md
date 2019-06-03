@@ -5,10 +5,18 @@ subtitle:
 
 ---
 
-Our Charter
-To provide the best possible care based on established standards.
-To always include the residents and/or the resident’s family in treatment decisions.
-To respect and respond to each individual’s cultural and personal choice and lifestyle decisions.
-To remain up-to-date with current trends in care.
-To ensure all members of our team maintain a collaborative approach to care.
-To be clearly accountable for our practices through the quality improvements process.
+##### You can ask the residents at the Home of St Barnabas, and they’ll tell you… it’s not a home, it’s their home.
+
+That’s because since they opened in 1956, the Home of St Barnabas staff strive to make their place feel like a home for their residents. Not only is the Home of St Barnabas a gracious character family home with stunning gardens we are located close to shops, cafés and just a short walk to the beach.
+
+As a 41 bed rest home you will find a warm and welcoming environment where people can enjoy individual and appropriate care as they require.
+
+St. Barnabas is unique
+
+- We are supported by "The Friends of St. Barnabas" representatives from local parishes who's aim is to provide enjoyment to the quality of life of the residents.
+
+- Situated in an elegant character home within a tranquil garden setting.
+
+- Activity programme offering individual and group activities.
+
+- Enquires welcome. For further information please contact the Manager
