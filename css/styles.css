@@ -1,5 +1,5 @@
 body {
-  border-top: 10px solid  #2F54C6;
+  border-top: 10px solid #2F54C6;
   font-family: "Lato", Calibri, Arial, sans-serif;
   overflow-x: hidden;
 }
@@ -318,56 +318,40 @@ h3 {
   padding-bottom: 30px;
 }
 
-/*Owl Carousel*/
-.owl-carousel {
-  overflow: hidden;
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
 }
 
-.owl-nav button {
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
   position: absolute;
   top: 50%;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  transition: all 0.3s ease-in-out;
+  color: #cdcbcd;
 }
 
-.owl-nav button.owl-prev {
-  left: 0;
+.owl-nav i {
+  font-size: 52px;
 }
 
-.owl-nav button.owl-next {
-  right: 0;
+.owl-nav .owl-prev {
+  left: -30px;
 }
 
-.owl-dots {
-  text-align: center;
-  padding-top: 15px;
+.owl-nav .owl-next {
+  right: -30px;
 }
 
-.owl-dots button.owl-dot {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: inline-block;
-  background: #ccc;
-  margin: 0 3px;
-}
-
-.owl-dots button.owl-dot.active {
-  background-color: #000;
-}
-
-.owl-dots button.owl-dot:focus {
-  outline: none;
-}
-
-.owl-nav button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.38) !important;
-}
 
 .list-group-item.active {
   background-color: #146A37;
@@ -389,13 +373,25 @@ h3 {
 
 .image-box {
   height: 400px;
-  background: #275CAB;
-  background: #265DAA;
+  background: url(../img/1.jpeg);
   background-position: center;
+  background-size: cover;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
+.image-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2F54C6;;
+  opacity: 0.7;
+  z-index: 1;
+}
+
 .image-box .image-box-content {
   padding: 100px;
   display: inline-block;
@@ -444,7 +440,7 @@ h3 {
 }
 .footer .lower-footer {
   height: auto;
-  background-color: #272A30;
+  background-color: #22252A;
   padding-top: 20px;
   padding-bottom: 20px;
 }

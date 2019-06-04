@@ -162,8 +162,8 @@
 <section>
     <div class="row">
       <div class="col-md-12 image-box">
-        <div class="overlay">
 
+<div class="overlay">
 
         <div class="col-md-3">
 
@@ -185,59 +185,31 @@
 
 <!--  Demos -->
 <section>
-  <div class="container partners">
     <div id="carousel" class="owl-carousel">
-      
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/1.jpeg height="200" width="150" alt="">
-      </a>
-  	</div>
+
+
+  </div>
+  <div class="carousel-wrap">
+  <div class="owl-carousel">
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/2.jpeg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/1.jpeg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/3.jpeg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/2.jpeg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/4.jpeg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/3.jpeg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/5.jpg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/4.jpeg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/6.jpg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/5.jpg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/7.jpg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/6.jpg height="200px" width="300px"></div>
     
-  	<div class="item">
-      <a href="#">
-        <img class="owl-lazy" src=img/8.jpg height="200" width="150" alt="">
-      </a>
-  	</div>
+    <div class="item"><img src=img/7.jpg height="200px" width="300px"></div>
+    
+    <div class="item"><img src=img/8.jpg height="200px" width="300px"></div>
     
   </div>
-  </div>
+</div>
 
 </section>
 
@@ -252,11 +224,7 @@
        <div class="container">
          <div class="row panel-1">
            <div class="col-md-12">
-             <div class="col-md-12 social-icons">
-               <a href="#"><i class="fab fa-facebook"></i></a>
-               <a href="#"><i class="fab fa-twitter-square"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-             </div>
+
            </div>
          </div>
          <div class="row panel-2">
@@ -264,7 +232,7 @@
               <p>© 2019 Home of St Barnabas. ALL RIGHTS RESERVED.</p>
             </div>
             <div class="col-md-3 col-sm-12 levitate">
-               <a href="#"><i class="fab fa-skyatlas"></i> Website </a>
+               <a href="#"><i class="fab fa-skyatlas"></i> Website by George Alexander</a>
             </div>
           </div> <!-- End of Row -->
 
@@ -289,6 +257,28 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
     <script  src="js/index.js"></script>
+
+    <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+loop: true,
+margin: 40,
+nav: false,
+
+autoplay: true,
+autoplayHoverPause: true,
+responsive: {
+  0: {
+    items: 1
+  },
+  600: {
+    items: 3
+  },
+  1000: {
+    items: 4
+  }
+}
+})
+    </script>
 
     <script type="text/javascript">
     var btn = $('#button');

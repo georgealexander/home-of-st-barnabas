@@ -1,11 +1,9 @@
 $("#carousel").owlCarousel({
   autoplay: true,
-  lazyLoad: true,
+  lazyLoad: false,
   loop: true,
   margin: 50,
 
-  animateOut: 'fadeOut',
-  animateIn: 'fadeIn',
 
   responsiveClass: true,
   autoHeight: true,
