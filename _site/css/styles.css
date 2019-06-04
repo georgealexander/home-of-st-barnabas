@@ -34,6 +34,17 @@ h2 {
   background-color: #fff;
 }
 
+.jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2F54C6;
+  opacity: 0.1;
+  z-index: 1;
+}
+
 .navbar {
   border-radius: 0px;
 }
@@ -105,6 +116,15 @@ h2 {
   background-color: #2F54C6;
   color: #ffffff;
   min-height: 200px;
+}
+
+.card a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.card a:hover{
+  color: #FFC009;
 }
 
 header {
@@ -373,7 +393,7 @@ h3 {
 
 .image-box {
   height: 400px;
-  background: url(../img/1.jpeg);
+  background: linear-gradient(0deg,rgba(37, 78, 199, 0.7), rgba(37, 78, 199, 0.7)), url(../img/1.jpeg);
   background-position: center;
   background-size: cover;
   display: table-cell;

@@ -17,6 +17,4 @@ We are supported by "The Friends of St. Barnabas" representatives from local par
 
 Situated in an elegant character home within a tranquil garden setting.
 
-Activity programme offering individual and group activities.
-
-Enquires welcome. For further information please contact the Manager
+We provide activity programmes offering individual and group activities.
