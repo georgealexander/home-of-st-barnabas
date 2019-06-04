@@ -1,6 +1,6 @@
 ---
 section_number: 1
-section_title: Home of St Barnabas Trust
+section_title: Welcome to the Home of St Barnabas Trust
 subtitle:
 
 ---
@@ -13,10 +13,10 @@ As a 41 bed rest home you will find a warm and welcoming environment where peopl
 
 St. Barnabas is unique
 
-- We are supported by "The Friends of St. Barnabas" representatives from local parishes who's aim is to provide enjoyment to the quality of life of the residents.
+We are supported by "The Friends of St. Barnabas" representatives from local parishes who's aim is to provide enjoyment to the quality of life of the residents.
 
-- Situated in an elegant character home within a tranquil garden setting.
+Situated in an elegant character home within a tranquil garden setting.
 
-- Activity programme offering individual and group activities.
+Activity programme offering individual and group activities.
 
-- Enquires welcome. For further information please contact the Manager
+Enquires welcome. For further information please contact the Manager

@@ -60,34 +60,6 @@ h2 {
   padding-left: 20px;
 }
 
-.btn {
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  background: none;
-  cursor: pointer;
-  padding: 18px 55px;
-  display: inline-block;
-  margin: 15px 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.btn:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
 
 /* ///////// Button 2 //// LOG IN  ////////////*/
 .btn-2 {
@@ -121,6 +93,18 @@ h2 {
 
 .breadcrumb{
   background-color: #ffffff;
+  padding: 0px;
+}
+
+.cards{
+  padding-top: 80px;
+}
+
+.card{
+  margin-bottom: 30px;
+  background-color: #2F54C6;
+  color: #ffffff;
+  min-height: 200px;
 }
 
 header {
@@ -264,6 +248,7 @@ h3 {
 .about-us{
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-right: 60px;
 }
 
 .section-divider h1 {
