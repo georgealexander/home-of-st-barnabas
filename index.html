@@ -1,5 +1,5 @@
 ---
 layout: index
 logo: img/logo.png
-permalink: home
+permalink: index
 ---

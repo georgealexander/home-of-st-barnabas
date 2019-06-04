@@ -115,7 +115,7 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
 <img class="meal" src="../img/10.jpeg" alt="" width="100%" height="auto">
 
 <div class="pricing">
-  <h4>Pricing</h4>
+  <h2>Pricing</h2>
 
   <p>
     <h5><b>Standard meal with or without the dessert is $9.90</b></h5>
@@ -133,7 +133,7 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
 
   <p>
     <h5><b>We also sell</b></h5>
-  
+
     Homemade baking 2 pieces, $2.50
     <br>
     Fruit 2 pieces $2.50
@@ -164,9 +164,70 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
 </div>
 
 
-      </div>
+<!-- Testimonial Slider from Baamboo Studio modified for The Mentor Group (http://www.mentor-group.com/clients--testimonials.html) -->
 
-      </div>
+
+<!-- TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2 -->
+			<div class="testimonial_slider_2">
+				<input type="radio" name="slider_2" id="slide_2_1" checked />
+				<input type="radio" name="slider_2" id="slide_2_2" />
+				<input type="radio" name="slider_2" id="slide_2_3" />
+				<input type="radio" name="slider_2" id="slide_2_4" />
+        <h2>Testimonials</h2>
+
+        <div class="boo_inner clearfix">
+        					<div class="slide_content">
+        						<div class="testimonial_2">
+        							<div class="content_2">
+        								<p>"Having tried other suppliers, I have reached a conclusion that yours is the best. Very friendly"</p>	</div>
+        							<div class="author_2">
+        								<h3>- Anonymous</h3>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="slide_content">
+        						<div class="testimonial_2">
+        							<div class="content_2">
+        								<p>"The food is great and mum is really enjoying them as well as the volunteers who deliver them, wonderfully nice and kind people."</p>
+        							</div>
+        							<div class="author_2">
+        								<h3>- Ailsa </h3>
+        							</div>
+        						</div>
+        					</div>
+        					<div class="slide_content">
+        						<div class="testimonial_2">
+        							<div class="content_2">
+        								<p>"Thanks very much to you and your wonderful team for the fantastic job you all do. It is very much appreciated"</p></div>
+        							<div class="author_2">
+        								<h3>- Yvonne</h3>
+
+        							</div>
+        						</div>
+        					</div>
+        					<div class="slide_content">
+        						<div class="testimonial_2">
+        							<div class="content_2">
+        								<p>"You provide a wonderful service very affordably. Thank you so much."</p>
+                      </div>
+        							<div class="author_2">
+        								<h3>- Angela</h3>
+
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        				<div id="controls">
+        					<label for="slide_2_1"></label>
+        					<label for="slide_2_2"></label>
+        					<label for="slide_2_3"></label>
+        					<label for="slide_2_4"></label>
+        				</div>
+        			</div>
+
+    </div>
+    </div>
+
       <div class="col-md-4 cards">
         <div class="card" style="width: 100%;">
           <div class="card-body">
@@ -200,6 +261,9 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
         </div>
         </div>
       </div>
+
+
+
       </div>
     </section>
 
@@ -220,7 +284,7 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
              </div>
              <div class="row panel-2">
                 <div class="col-md-9">
-                  <p>© 2019 Your Website. ALL RIGHTS RESERVED.</p>
+                  <p>© 2019 Home of St Barnabas. ALL RIGHTS RESERVED.</p>
                 </div>
                 <div class="col-md-3 col-sm-12 levitate">
                    <a href="#"><i class="fab fa-skyatlas"></i> Website </a>
@@ -255,6 +319,29 @@ Meals are delivered between 12 noon and 1pm each day, Monday to Saturday in the 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
     <script  src="js/index.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+  pagenum = 1;
+  function AutoRotate() {
+     var myele = null;
+     var allElements = document.getElementsByTagName('label');
+     for (var i = 0, n = allElements.length; i < n; i++) {
+       var myfor = allElements[i].getAttribute('for');
+       if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+         allElements[i].click();
+         break;
+       }
+     }
+     if (pagenum == 4) {
+       pagenum = 1;
+     } else {
+       pagenum++;
+     }
+  }
+  setInterval(AutoRotate, 5000);
+});
+    </script>
 
     <script type="text/javascript">
     var btn = $('#button');
