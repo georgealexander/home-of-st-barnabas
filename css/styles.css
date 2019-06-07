@@ -32,6 +32,10 @@ h2 {
   text-transform: capitalize;
 }
 
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+  }
 
 .bg-light {
     background-color: #ffffff!important;
@@ -621,6 +625,12 @@ figure {
     margin-bottom: 10px;
   }
 
+
+  .navbar-brand img{
+    height: 40px;
+    width: auto;
+  }
+ 
   .footer-item {
     padding-bottom: 20px;
   }
@@ -638,7 +648,8 @@ figure {
   }
 
   .intro{
-    width: 70%;
+    width: 100%;
+
   }
 
   .about-us{
