@@ -32,6 +32,11 @@ h2 {
   text-transform: capitalize;
 }
 
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
 .navbar-brand img{
     height: 50px;
     width: auto;
