@@ -1,4 +1,4 @@
 ---
-img_path: "img/15.jpg"
+img_path: "img/15.JPG"
 
 ---
