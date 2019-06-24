@@ -181,7 +181,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  background: url(../img/main.jpg);
+  background: linear-gradient(to right, rgba(241,241,241,0.3), rgba(241,241,241,0.3)), url(../img/main.jpg);
   background-size: cover;
   background-position: center center;
   z-index: 1;
@@ -280,32 +280,32 @@ a:hover {
   text-transform: capitalize;
 }
 
-.left {
-  background-color:#4A6EDF;
-  width: 33%;
-  height: 200px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  overflow: hidden;
+
+.icon-panel{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    height: 100%;
+
+    /*width: 50px;
+    height: 30px;
+    line-height: 30px*/
 }
 
-.middle {
-  background-color: #355DDD;
-  height: 200px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  width: 33%;
-  display: inline-block;
-  overflow: hidden;
+.card-left{
+  background-color: #4A6EDF;
 }
 
-.right {
-  background-color: #2F54C6;
-  height: 200px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  width: 33%;
-  display: inline-block;
-  overflow: hidden;
+.card-middle{
+  background-color: #365CDD;
 }
+
+.card-right{
+  background-color: #3054C6;
+}
+
+
 
 .pricing{
   margin-top: 30px;
@@ -643,7 +643,7 @@ figure {
     height: 40px;
     width: auto;
   }
- 
+
   .footer-item {
     padding-bottom: 20px;
   }

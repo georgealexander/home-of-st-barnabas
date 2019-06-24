@@ -21,7 +21,44 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
+    <style media="screen">
+    .card{
+border-radius: 0px;
+color: #fff;
+}
 
+.icon-panel{
+  color:white;
+  text-align: center;
+  padding: 10px;
+  margin-right: 20px;
+  height: 100%;
+  font-size: 70px;
+
+  /*width: 50px;
+  height: 30px;
+  line-height: 30px*/
+}
+
+.card-left{
+background-color: #4A6EDF;
+}
+
+.card-middle{
+background-color: #365CDD;
+}
+
+.card-right{
+background-color: #3054C6;
+}
+
+.card{
+  padding: 30px 30px;
+  margin-bottom: 0px!important;
+  color: #ffffff;
+  min-height: 0px!important;
+}
+    </style>
 
   </head>
 <body>
@@ -59,7 +96,7 @@
 
 <a id="button"><i class="fas fa-sort-up"></i></a>
 <header id="top">
- 
+
   <div class="container h-100">
 
     <div class="d-flex h-100 text-left align-items-center">
@@ -69,7 +106,7 @@
           <p>A warm and welcoming environment </p>
           <p><i class="fas fa-phone"></i>&nbsp;&nbsp;03 455 8298</p>
           <a class="number btn btn-outline-light btn-md d-none d-md-left d-lg-block" href="contact-us" role="button">Click for a free information pack</a>
-       
+
 
           </div>
       </div>
@@ -79,46 +116,34 @@
 </header>
 
 <section>
+
   <div class="row">
-      <div class="left service-box">
-        <div class="service-box-inner">
-            <div class="one">
-              <span>
-                <i class="fas fa-binoculars"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Take a tour</h3>
-              <p>We encourage you to come and take a look around.</p>
-            </div>
+
+        <div class="card col-md-4 card-left">
+          <div class="card-block">
+            <h1 class="card-text icon-panel float-left"><i class="fas fa-home"></i></h1>
+            <h4 class="card-title">Take a Tour</h4>
+            <p class="card-text">We encourage you to come and take a look around.</p>
+          </div>
+
         </div>
-      </div>
+        <div class="card col-md-4 card-middle">
+          <div class="card-block">
+            <h1 class="card-text icon-panel float-left"><i class="fas fa-info-circle"></i></h1>
+            <h4 class="card-title">Get an Info Pack</h4>
+            <p class="card-text">Contact us today to request a free information pack.</p>
+          </div>
 
-      <div class="middle service-box">
-            <div class="one">
-              <span>
-                <i class="fas fa-info"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Get an Info Pack</h3>
-              <p>Contact us today to request a free information pack.</p>
-            </div>
-      </div>
+        </div>
+      <div class="card col-md-4 card-right">
+          <div class="card-block">
+            <h1 class="card-text icon-panel float-left"><i class="fas fa-handshake"></i></h1>
+            <h4 class="card-title">Say Hello</h4>
+            <p class="card-text">12 Ings Ave, St Clair, Dunedin 9012</p>
+          </div>
 
-      <div class="right service-box">
-            <div class="one">
-              <span>
-                <i class="fas fa-handshake"></i>
-              </span>
-            </div>
-            <div class="two">
-              <h3>Say hello</h3>
-              <p>12 Ings Ave, St Clair, Dunedin 9012</p>
-            </div>
-      </div>
+        </div>
 
-      </div>
 </section>
 
 <section>
