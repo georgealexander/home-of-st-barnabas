@@ -181,7 +181,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  background: url(../img/main.jpg);
+  background: linear-gradient(to right, rgba(241,241,241,0.3), rgba(241,241,241,0.3)), url(../img/main.jpg);
   background-size: cover;
   background-position: center center;
   z-index: 1;
@@ -643,7 +643,7 @@ figure {
     height: 40px;
     width: auto;
   }
- 
+
   .footer-item {
     padding-bottom: 20px;
   }
